@@ -153,3 +153,40 @@ Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
 
 You can update the rest of the page and CSS as you see fit
 
+
+## Challenge Part C - Advanced HTML
+
+Slide: https://docs.google.com/presentation/d/1mbxOKenlrEABWsJfldI2UKNzjfhcQjchdVwQORDm3mo/edit?usp=sharing
+
+The assignment is to create two separate HTML files and link them together with HTML link elements.
+
+1. In the `AdvancedHtml` folder create an index HTML file.
+    - `index.html` file.
+    - There should be a empty `author.html` document in the folder too.
+2. In the `index.html` file, add the `<!DOCTYPE>`, `<html>`, `<head>`, `<body>` elements.
+3. In the body element of `index.html` add a `<h1>` element with content of your choice.
+    - See the `author.html` file for a reminder of the basic HTML elements.
+    - The heading should be about a topic you could write about in the web page.
+    - Give the `<h1>` element an `id="topic-heading"` attribute
+4. Under the `<h1>` element, add a unordered list with 3 list items.
+    - The list items contents should be `Home`, `Author`, `Logout`
+    - The list items should each have an anchor element with `href` attributes.
+    - There should be an anchor element within each list item
+        - E.g. `<li><a href="http://foobar.com">A Page Link</a></li>`
+5. Link the `Home` list item to the `<h1>` element using the `id` as the target.
+    - E.g. `href="#topic-heading"`
+    - When clicked this should take the user to the top of the heading.
+6. Link the `Author` list item to `author.html`.
+7. Link the `Logout` list item to `https://www.developers.ac.nz`
+    - Add a `target="_blank"` attribute to the link anchor element.
+    - Also add the `noopener` and `noreferrer` attributes to the link anchor element.
+8. Add a paragraph element under the `<h1>` element and write a short blurb about the topic you put in the `<h1>` heading.
+9. In the `author.html` document add a list with a single list item in the `<header>` element (under the heading element).
+10. Link the single list item back to the `index.html` page.
+    - E.g. `href="index.html"`
+11. Replace `Your Name` in the `author.html` document with your name.
+12. Write a short blurb about yourself in the `<p>` element.
+13. Try out the links on both pages and make sure they work correctly!!
+
+Celebrate again!! 🎉🎉🎉 You've commited your second code assignment!!
+

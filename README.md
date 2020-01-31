@@ -1,4 +1,4 @@
-# WDD01 Day in the life
+# Client-Side Web Development Course - Day in the life
 
 Beginner and intermediate client-side development challenges.
 
@@ -13,7 +13,7 @@ Slideshow: https://docs.google.com/presentation/d/13uqWRk190Ergdy61iCDBQ9guoCJkb
 
 ### Video - HTML, CSS and JavaScript: The Big Picture
 
-We'll watch a succinct video together on `HTML, CSS and JavaScript: The Big Picture` to get an overview understanding of the core parts of the web - from https://app.pluralsight.com/library/courses/html-css-javascript-big-picture/table-of-contents
+There's a succinct video on `HTML, CSS and JavaScript: The Big Picture` to get an overview understanding of the core parts of the web - from https://app.pluralsight.com/library/courses/html-css-javascript-big-picture/table-of-contents. Even more advanced web developers will likely learn something here as it goes into the history.
 
  * Course Overview
  * Why You Should Care About How the Web Works

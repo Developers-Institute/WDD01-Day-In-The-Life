@@ -1,6 +1,8 @@
 // array to track the chat messages
 const chatLog = [];
 
+let userName;
+
 // chat message object constructor
 function ChatMessage(user, msg, bot) {
   this.user = user;
@@ -10,14 +12,58 @@ function ChatMessage(user, msg, bot) {
 };
 
 /**
- *
+ * 
  * FIX THIS!
  */
 const botReply = (msg) => {
+  let reply;
+  const words = msg.replace('?', ' ?').toLowerCase().split(' ');
+  const isQuestion = msg.indexOf('?') >= 0;
+  let responses = [];
 
-  console.log('TODO - botReply:', msg);
+  if (!msg) {
+    if (!userName) {
+      responses = ["Gotta speak up.. what was your name?", "How rude.. What is your name?"];
+    } else {
+      responses = ['What? You gotta speak up', 'Huh?'];
+    }
 
-  return 'Error unknown ...';
+  } else if (isQuestion) {
+    if (words[0] == 'should' || words[0] == 'can') {
+      responses = ['Yes', 'No', 'Not sure', 'Maybe', `What do you think, ${userName}?`, 'The choice is obvious'];
+    } else if (words[0] == 'when') {
+      responses = ['Today', 'Tomorrow', 'This week', 'Next week', 'This month', 'Next month', 'In a long time!', 'Never!'];
+    } else if (words[0] == 'why') {
+      responses = ['Because', "It's always been like that", "My master made it so"];
+    }
+
+    responses.push("I don't know");
+    responses.push("What kind of question is that?");
+  
+  } else if (words[0] == 'hi' || words[0] == 'hello') {
+    responses = [
+      `What can I help you with, ${userName}?`,
+      `How can I help?`
+    ];
+
+  } else if (!userName) {
+    userName = msg;
+    responses = [`Hi, ${userName}!`];
+
+  } else {
+    responses = [
+      'Huh?',
+      'Why?',
+      "You're not making any sense!",
+      "That's nice",
+      "HAHA"
+    ];
+  }
+
+  const randomChoice = Math.round( Math.random() * (responses.length - 1) );
+  reply = responses[ randomChoice ];
+
+  return reply;
 };
 
 //
@@ -46,7 +92,7 @@ const renderChatbox = () => {
     `;
     chatboxHTML += markup;
   }
-
+  
   // set the inner HTML
   chatboxEl.innerHTML = chatboxHTML;
 };
@@ -73,4 +119,9 @@ const handleChatSubmit = (event) => {
 };
 
 // attach the submit event handler to the form here ...
+const form = document.getElementById("chat-form");
+form.addEventListener('submit', handleChatSubmit);
 
+// Add the first question to the chat log
+chatLog.push(new ChatMessage('bot', "Hi, human ... what's your name?", true));
+renderChatbox();

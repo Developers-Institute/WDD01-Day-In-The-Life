@@ -26,8 +26,11 @@ then create a chatbot.
 
 ## Resources / Self-directed learning
 
-- W3C HTML elements tutorial: https://www.w3schools.com/html/html_elements.asp
-- Colour pickers: https://coolors.co/ or http://colormind.io/
+HTML elements, tags, and attributes are the fundamental blocks for building web pages. This section will cover the basics of HTML so you can write your first webpage.
+
+W3C HTML elements tutorial: https://www.w3schools.com/html/html_elements.asp
+
+Need some colour ideas? Check out https://coolors.co/ or http://colormind.io/
 
 ## Challenge Part A - Basics of HTML & CSS
 

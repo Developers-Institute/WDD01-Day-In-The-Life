@@ -24,6 +24,11 @@ We'll watch a succinct video together on `HTML, CSS and JavaScript: The Big Pict
 Today we'll be diving into HTML documents and CSS styling basics,
 then create a chatbot.
 
+## Resources / Self-directed learning
+
+- W3C HTML elements tutorial: https://www.w3schools.com/html/html_elements.asp
+- Colour pickers: https://coolors.co/ or http://colormind.io/
+
 ## Challenge Part A - Basics of HTML & CSS
 
 For this challenge section, you will need to use the starter website that's been set up in the `Chatbot` folder.

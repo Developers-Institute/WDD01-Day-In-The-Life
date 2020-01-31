@@ -9,6 +9,8 @@ We'll go through
 - tools we & the whole industry use
 - the basics of HTML and CSS
 
+Slideshow: https://docs.google.com/presentation/d/13uqWRk190Ergdy61iCDBQ9guoCJkbSnT_aH2gZeBkQY/edit#slide=id.g64bc3b77e4_0_109
+
 ### Video - HTML, CSS and JavaScript: The Big Picture
 
 We'll watch a succinct video together on `HTML, CSS and JavaScript: The Big Picture` to get an overview understanding of the core parts of the web - from https://app.pluralsight.com/library/courses/html-css-javascript-big-picture/table-of-contents
@@ -20,7 +22,15 @@ We'll watch a succinct video together on `HTML, CSS and JavaScript: The Big Pict
 ### Challenge Brief
 
 Today we'll be diving into HTML documents and CSS styling basics,
-followed by styling one of our chatbots 🤖 (for beginner applicants) or coding your own chatbot 🤖 (for intermediate applicatants)
+then create a chatbot.
+
+## Resources / Self-directed learning
+
+HTML elements, tags, and attributes are the fundamental blocks for building web pages. This section will cover the basics of HTML so you can write your first webpage.
+
+W3C HTML elements tutorial: https://www.w3schools.com/html/html_elements.asp
+
+Need some colour ideas? Check out https://coolors.co/ or http://colormind.io/
 
 ## Challenge Part A - Basics of HTML & CSS
 
@@ -104,11 +114,11 @@ Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
 
 ### Beginner students
 
-Your chatbot has been loaded with some of our logic to handle the reply logic, so you can focus on styling the chatbot.
+Your chatbot has been loaded with some of our logic to handle the reply logic, so you can focus on styling the chatbot 🤖
 
 ### Intermediate students
 
-In Part B you'll be writing some logic for a chatbot to reply to user input. You may skip or leave the  styling until last and focus on the chatbot reply logic.
+In Part B you'll be writing some logic for a chatbot 🤖 to reply to user input. You may skip or leave the  styling until last and focus on the chatbot reply logic.
 
 1. In `chatbot.js` there are functions already written to handle the form submit and render the chat to the page. You need to write the code to attach the form submit handler to the form element.
     * Add the code for this at the bottom of the page.

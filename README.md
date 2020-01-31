@@ -32,6 +32,8 @@ W3C HTML elements tutorial: https://www.w3schools.com/html/html_elements.asp
 
 Need some colour ideas? Check out https://coolors.co/ or http://colormind.io/
 
+W3C CSS intro: https://www.w3schools.com/css/css_intro.asp
+
 ## Challenge Part A - Basics of HTML & CSS
 
 For this challenge section, you will need to use the starter website that's been set up in the `Basics` folder.
@@ -110,17 +112,29 @@ For this challenge section, you will need to use the starter website that's been
 
 For this challenge section, you will need to use the starter website that's been set up in the `/Chatbot` folder.
 
-Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
-
 ### Beginner students
 
 Your chatbot has been loaded with some of our logic to handle the reply logic, so you can focus on styling the chatbot 🤖
 
-### Intermediate students
+The CSS styles can be edited in `Chatbot/static/css/style.css`, saved & the page styles will re-load.
+
+1. Close the first live server (click  `Port: 5501`) at bottom-right corner of VSCode.
+2. Open Chatbot HTML file: Right-click on `Chatbot/index.html` and select `Open with Live Server`:
+2. Open `style.css`, not the one from challenge A but the one under Chatbot folder.
+3. Style the body background color in the existing `body` rule-set by inserting `background: #ffffff` but instead of white (`#ffffff`) pick a color from https://coolors.co/
+4. Change the colour of the text for the chat messages. They have `class="chat-item"` in the HTML, so will be styled with a rule-set like `.chat-item { color: #000000 }` but instead of black (#000000) pick another colour. Note you have to use `color` not `colour`.
+5. Try replace the robot image with another image you find online.
+
+### Intermediate/Advanced students
 
 In Part B you'll be writing some logic for a chatbot 🤖 to reply to user input. You may skip or leave the  styling until last and focus on the chatbot reply logic.
 
-1. In `chatbot.js` there are functions already written to handle the form submit and render the chat to the page. You need to write the code to attach the form submit handler to the form element.
+Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
+
+
+1. Close the first live server (click  Port: 5501) at bottom-right corner of VSCode.
+2. Open Chatbot HTML file: Right-click on `Chatbot/index.html` and select `Open with Live Server`:
+3. In `chatbot.js` there are functions already written to handle the form submit and render the chat to the page. You need to write the code to attach the form submit handler to the form element.
     * Add the code for this at the bottom of the page.
     * Check the form `id` in the `index.html` file. There should be only one form in the document.
     * First you'll need to get a reference to the form element, then use the `.addEventListener` method to set the 'submit' event.
@@ -129,13 +143,13 @@ In Part B you'll be writing some logic for a chatbot 🤖 to reply to user input
 
     You should also notice that the bot doesn't reply properly. You will need to implement the chat logic in the `botReply` function.
 
-2. Find the `botReply` function in `chatbot.js`. You'll see it takes in a single parameter `msg`. That value will be the last input the user typed in. In the `botReply` function add an empty variable named `reply`.
-3. Currently `botReply` always returns the string 'Error unknown ...' regardless of the user input. Update the `return` statement to return the `reply` variable.
-4. Write the `botReply` logic to take the `msg` parameter and set the value of the `reply` variable based on something the user entered. It's up to you how to implement it, and what text to use for the replies.
+4. Find the `botReply` function in `chatbot.js`. You'll see it takes in a single parameter `msg`. That value will be the last input the user typed in. In the `botReply` function add an empty variable named `reply`.
+5. Currently `botReply` always returns the string 'Error unknown ...' regardless of the user input. Update the `return` statement to return the `reply` variable.
+6. Write the `botReply` logic to take the `msg` parameter and set the value of the `reply` variable based on something the user entered. It's up to you how to implement it, and what text to use for the replies.
     * You could use if/else or switch statements or a combination of the two.
     * You could just return a random string every time.
     * The function should be able to return at least three different replies.
     * You will need to use your `string-method-fu` here!
 
-You can update the rest of the page and CSS as you see fit. Just make sure to keep any existing elements and element attributes (for testing purposes ...).
+You can update the rest of the page and CSS as you see fit
 

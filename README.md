@@ -20,7 +20,7 @@ We'll watch a succinct video together on `HTML, CSS and JavaScript: The Big Pict
 ### Challenge Brief
 
 Today we'll be diving into HTML documents and CSS styling basics,
-followed by styling one of our chatbots 🤖 (for beginner applicants) or coding your own chatbot 🤖 (for intermediate applicatants)
+then create a chatbot.
 
 ## Challenge Part A - Basics of HTML & CSS
 
@@ -47,11 +47,11 @@ Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
 
 ### Beginner students
 
-Your chatbot has been loaded with some of our logic to handle the reply logic, so you can focus on styling the chatbot.
+Your chatbot has been loaded with some of our logic to handle the reply logic, so you can focus on styling the chatbot 🤖
 
 ### Intermediate students
 
-In Part B you'll be writing some logic for a chatbot to reply to user input. You may skip or leave the  styling until last and focus on the chatbot reply logic.
+In Part B you'll be writing some logic for a chatbot 🤖 to reply to user input. You may skip or leave the  styling until last and focus on the chatbot reply logic.
 
 1. In `chatbot.js` there are functions already written to handle the form submit and render the chat to the page. You need to write the code to attach the form submit handler to the form element.
     * Add the code for this at the bottom of the page.

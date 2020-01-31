@@ -24,26 +24,83 @@ followed by styling one of our chatbots 🤖 (for beginner applicants) or coding
 
 ## Challenge Part A - Basics of HTML & CSS
 
-For this challenge section, you will need to use the starter website that's been set up in the `Chatbot` folder.
+For this challenge section, you will need to use the starter website that's been set up in the `Basics` folder.
 
 1. Open up vscode and open the `WDD01 Day in the life` workspace from the Recent section.
+
 2. See the files panel on the left - double-click the `Basics/index.html` file - this is where your HTML will go.
-3. Right-click on `Basics/index.html` and open with live server
 
-   Now the HTML document can be edited in `Basics/index.html`, saved & the page content will re-load.
+3. Right-click on `Basics/index.html` and select `Open with Live Server`:
 
-   The CSS styles can be edited in `Basics/static/css/style.css`, saved & the page styles will re-load.
+   - Now the HTML document can be edited in `Basics/index.html`, saved & the page content will re-load.
 
-   Now we're ready to go!
+   - The CSS styles can be edited in `Basics/static/css/style.css`, saved & the page styles will re-load.
 
-4.
+   - Now we're ready to go!
+
+4. Update the `<title>` on line number 7:
+
+    - Select the `Challenge` text in in between the `<title>` tags.
+
+    - Change the text to `My First Website`.
+
+    - Save the changes in the `index.html` document. You should see the webpage update the title text in the web browser tab.
+
+    - <img src="Basics/static/img/title_challenge.png" alt="Challenge Title" width="600">
+
+    - <img src="Basics/static/img/title_MFW.png" alt="My First Website Title" width="600">
+
+5. Update the `<h1>` heading with the text `Hello, World!`:
+
+    - Select the `Basics` text in between the `<h1>` and `</h1>` tags on line 17.
+
+    - Change the text to `Hello, World!`.
+
+    - Remember to save the file after making code updates to see the changes in the web browser.
+
+6. Add some styling to the heading by adding a CSS style class to the heading element:
+
+    - In the `<h1>` `class` attribute, put `main-heading` between the quotes.
+
+     - The heading should now be larger and brighter!
+
+7. Give the website a background image.
+
+    - In the `style.css` stylesheet, find the `.background` style rule.
+
+    - Paste the following between the parenthesis:
+
+        ```
+        background-image: url('/Basics/static/img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        ```
+
+    - If all goes well, you should have a "dark themed" website now.
+
+8. Back in the website `index.html` file, add a paragraph element under the heading.
+
+    - Below the `main-heading` element, add a paragraph element `<p>  </p>`
+
+    - Add some text to between the `<p>` tags. Just make up a story about the background image.
+
+9.  Style the paragraph `<p>` element.
+
+    - Add a `class` attribute to the `<p>` element.
+
+    - Give the `class` attribute a value of `main-paragraph`.
+
+    - In the `style.css` file add a new style rule called `.main-paragraph`.
+
+    - In the `.main-paragraph` style rule add a `color:` property. Try using different colours names (or hex values). *Note: the CSS property must be spelt `color`.*
+
+10. Be amazed at your glorious website!
 
 ## Challenge Part B - Chatbot 🤖
 
 For this challenge section, you will need to use the starter website that's been set up in the `/Chatbot` folder.
 
 Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
-
 
 ### Beginner students
 

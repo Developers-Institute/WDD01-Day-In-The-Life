@@ -1,67 +1,74 @@
-# WDD01 Challenge X
+# WDD01 Day in the life
 
-Template repos for WDD01 challenges.
+Beginner and intermediate client-side development challenges.
 
-## Getting Started
+## Morning Meeting
 
-Same as the other daily challenges. Git `fork` and `clone` this repository.
+We'll go through
+- basics of what is involved when you visit a webpage
+- tools we & the whole industry use
+- the basics of HTML and CSS
+
+### Video - HTML, CSS and JavaScript: The Big Picture
+
+We'll watch a succinct video together on `HTML, CSS and JavaScript: The Big Picture` to get an overview understanding of the core parts of the web - from https://app.pluralsight.com/library/courses/html-css-javascript-big-picture/table-of-contents
+
+ * Course Overview
+ * Why You Should Care About How the Web Works
+ * Displaying the Web with HTML
 
 ### Challenge Brief
 
+Today we'll be diving into HTML documents and CSS styling basics,
+followed by styling one of our chatbots 🤖 (for beginner applicants) or coding your own chatbot 🤖 (for intermediate applicatants)
 
-## Start the Web Server
+## Challenge Part A - Basics of HTML & CSS
 
-The challenge requires the local dev webserver.
+For this challenge section, you will need to use the starter website that's been set up in the `Chatbot` folder.
 
-Run the following commands in the CLI to start the webserver:
+1. Open up vscode and open the `WDD01 Day in the life` workspace from the Recent section.
+2. See the files panel on the left - double-click the `Basics/index.html` file - this is where your HTML will go.
+3. Right-click on `Basics/index.html` and open with live server
 
-```shell
-# install the server dependencies
-npm install
-# start the webserver
-npm start
-```
+   Now the HTML document can be edited in `Basics/index.html`, saved & the page content will re-load.
 
-Now the webserver is started, you should be able to send HTTP requests to the webserver.
+   The CSS styles can be edited in `Basics/static/css/style.css`, saved & the page styles will re-load.
 
-The code for this challenge should go into `/Submission/static/js/script.js`.
+   Now we're ready to go!
 
-## Challenge Part A - ...
+4.
 
+## Challenge Part B - Chatbot 🤖
 
-## Challenge Part B - ...
+For this challenge section, you will need to use the starter website that's been set up in the `/Chatbot` folder.
+
+Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
 
 
-# Submit the Challenge
+### Beginner students
 
-Same workflow as the other challenges.
+Your chatbot has been loaded with some of our logic to handle the reply logic, so you can focus on styling the chatbot.
 
-Git `add`, `commit`, `push`, then create a `pull request`.
+### Intermediate students
 
-# Git CLI Refresher
+In Part B you'll be writing some logic for a chatbot to reply to user input. You may skip or leave the  styling until last and focus on the chatbot reply logic.
 
-Remember to `fork` the repository first!!!
+1. In `chatbot.js` there are functions already written to handle the form submit and render the chat to the page. You need to write the code to attach the form submit handler to the form element.
+    * Add the code for this at the bottom of the page.
+    * Check the form `id` in the `index.html` file. There should be only one form in the document.
+    * First you'll need to get a reference to the form element, then use the `.addEventListener` method to set the 'submit' event.
 
-Then you can follow the shell commands below:
+    If you've attached the submit handler correctly, you should be able to chat with the bot!
 
-```shell
-# example git clone command - replace this URL with your repo's URL
-git clone git@github.com:YOU_REPO/WDD01-Challenge-XX.git
+    You should also notice that the bot doesn't reply properly. You will need to implement the chat logic in the `botReply` function.
 
-# make sure to change directory into the cloned directory
-cd WDD01-Challenge-XX
+2. Find the `botReply` function in `chatbot.js`. You'll see it takes in a single parameter `msg`. That value will be the last input the user typed in. In the `botReply` function add an empty variable named `reply`.
+3. Currently `botReply` always returns the string 'Error unknown ...' regardless of the user input. Update the `return` statement to return the `reply` variable.
+4. Write the `botReply` logic to take the `msg` parameter and set the value of the `reply` variable based on something the user entered. It's up to you how to implement it, and what text to use for the replies.
+    * You could use if/else or switch statements or a combination of the two.
+    * You could just return a random string every time.
+    * The function should be able to return at least three different replies.
+    * You will need to use your `string-method-fu` here!
 
-# open VS Code
-code .
+You can update the rest of the page and CSS as you see fit. Just make sure to keep any existing elements and element attributes (for testing purposes ...).
 
-# start coding ...
-
-# when ready to commit and push
-git add .
-
-git commit -m "Challenge XX ..."
-
-git push origin pilot
-```
-
-Don't forget to open a `pull request` on the GitHub web app after you've pushed your code.

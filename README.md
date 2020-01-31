@@ -9,6 +9,8 @@ We'll go through
 - tools we & the whole industry use
 - the basics of HTML and CSS
 
+Slideshow: https://docs.google.com/presentation/d/13uqWRk190Ergdy61iCDBQ9guoCJkbSnT_aH2gZeBkQY/edit#slide=id.g64bc3b77e4_0_109
+
 ### Video - HTML, CSS and JavaScript: The Big Picture
 
 We'll watch a succinct video together on `HTML, CSS and JavaScript: The Big Picture` to get an overview understanding of the core parts of the web - from https://app.pluralsight.com/library/courses/html-css-javascript-big-picture/table-of-contents

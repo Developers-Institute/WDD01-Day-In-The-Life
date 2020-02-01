@@ -26,13 +26,31 @@ then create a chatbot.
 
 ## Resources / Self-directed learning
 
-HTML elements, tags, and attributes are the fundamental blocks for building web pages. This section will cover the basics of HTML so you can write your first webpage.
+- HTML elements, tags, and attributes are the fundamental blocks for building web pages. This section will cover the basics of HTML so you can write your first webpage.
 
-W3C HTML elements tutorial: https://www.w3schools.com/html/html_elements.asp
+- W3C HTML elements tutorial: https://www.w3schools.com/html/html_elements.asp
 
-Need some colour ideas? Check out https://coolors.co/ or http://colormind.io/
+- Need some colour ideas? Check out https://coolors.co/ or http://colormind.io/
 
-W3C CSS intro: https://www.w3schools.com/css/css_intro.asp
+- W3C CSS intro: https://www.w3schools.com/css/css_intro.asp
+
+- HTML Validator: https://validator.w3.org/#validate_by_input
+
+- ARIA Recommendation: https://www.w3.org/TR/wai-aria-1.1/
+
+- Next, head over to the W3C HTML tutorials site:
+  - https://www.w3schools.com/html/html_elements.asp
+  - Browse over the Basic tutorial to at least Paragraphs tutorials, and the formatting tutorial. We'll cover styling in more depth in the CSS classes later in the course.
+
+- Then, test your knowledge you've just learnt:
+  - https://www.w3schools.com/html/exercise.asp
+
+- Give these exercises a go (use the menu on the left of the page):
+  - HTML Attributes
+  - HTML Headings
+  - HTML Paragraphs
+  - HTML Formatting
+
 
 ## Challenge Part A - Basics of HTML & CSS
 
@@ -156,8 +174,6 @@ You can update the rest of the page and CSS as you see fit
 
 ## Challenge Part C - Advanced HTML
 
-Slide: https://docs.google.com/presentation/d/1mbxOKenlrEABWsJfldI2UKNzjfhcQjchdVwQORDm3mo/edit?usp=sharing
-
 The assignment is to create two separate HTML files and link them together with HTML link elements.
 
 1. In the `AdvancedHtml` folder create an index HTML file.
@@ -188,5 +204,5 @@ The assignment is to create two separate HTML files and link them together with 
 12. Write a short blurb about yourself in the `<p>` element.
 13. Try out the links on both pages and make sure they work correctly!!
 
-Celebrate again!! 🎉🎉🎉 You've commited your second code assignment!!
+Celebrate again!! 🎉🎉🎉 You've finished your third challenge!!
 

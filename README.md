@@ -126,7 +126,45 @@ For this challenge section, you will need to use the starter website that's been
 
 10. Be amazed at your glorious website!
 
-## Challenge Part B - Chatbot 🤖
+
+## Challenge Part B - Advanced HTML
+
+The assignment is to create two separate HTML files and link them together with HTML link elements.
+
+1. Close the first live server (click  Port: 5501) at bottom-right corner of VSCode.
+2. In the `AdvancedHtml` folder create an index HTML file.
+    - `index.html` file.
+    - There should be a empty `author.html` document in the folder too.
+3. Open new HTML file with live server: Right-click on `Chatbot/index.html` and select `Open with Live Server`
+4. In the `index.html` file, add the `<!DOCTYPE>`, `<html>`, `<head>`, `<body>` elements.
+5. In the body element of `index.html` add a `<h1>` element with content of your choice.
+    - See the `author.html` file for a reminder of the basic HTML elements.
+    - The heading should be about a topic you could write about in the web page.
+    - Give the `<h1>` element an `id="topic-heading"` attribute
+6. Under the `<h1>` element, add a unordered list with 3 list items.
+    - The list items contents should be `Home`, `Author`, `Logout`
+    - The list items should each have an anchor element with `href` attributes.
+    - There should be an anchor element within each list item
+        - E.g. `<li><a href="http://foobar.com">A Page Link</a></li>`
+7. Link the `Home` list item to the `<h1>` element using the `id` as the target.
+    - E.g. `href="#topic-heading"`
+    - When clicked this should take the user to the top of the heading.
+8. Link the `Author` list item to `author.html`.
+9. Link the `Logout` list item to `https://www.developers.ac.nz`
+    - Add a `target="_blank"` attribute to the link anchor element.
+    - Also add the `noopener` and `noreferrer` attributes to the link anchor element.
+10. Add a paragraph element under the `<h1>` element and write a short blurb about the topic you put in the `<h1>` heading.
+11. In the `author.html` document add a list with a single list item in the `<header>` element (under the heading element).
+12. Link the single list item back to the `index.html` page.
+    - E.g. `href="index.html"`
+13. Replace `Your Name` in the `author.html` document with your name.
+14. Write a short blurb about yourself in the `<p>` element.
+15. Try out the links on both pages and make sure they work correctly!!
+
+Celebrate again!! 🎉🎉🎉 You've finished your second challenge!!
+
+
+## Challenge Part C - Chatbot 🤖
 
 For this challenge section, you will need to use the starter website that's been set up in the `/Chatbot` folder.
 
@@ -137,21 +175,21 @@ Your chatbot has been loaded with some of our logic to handle the reply logic, s
 The CSS styles can be edited in `Chatbot/static/css/style.css`, saved & the page styles will re-load.
 
 1. Close the first live server (click  `Port: 5501`) at bottom-right corner of VSCode.
-2. Open Chatbot HTML file: Right-click on `Chatbot/index.html` and select `Open with Live Server`:
-2. Open `style.css`, not the one from challenge A but the one under Chatbot folder.
-3. Style the body background color in the existing `body` rule-set by inserting `background: #ffffff` but instead of white (`#ffffff`) pick a color from https://coolors.co/
-4. Change the colour of the text for the chat messages. They have `class="chat-item"` in the HTML, so will be styled with a rule-set like `.chat-item { color: #000000 }` but instead of black (#000000) pick another colour. Note you have to use `color` not `colour`.
-5. Try replace the robot image with another image you find online.
+2. Open Chatbot HTML file: Right-click on `Chatbot/index.html` and select `Open with Live Server`
+3. Open `style.css`, not the one from challenge A but the one under Chatbot folder.
+4. Style the body background color in the existing `body` rule-set by inserting `background: #ffffff` but instead of white (`#ffffff`) pick a color from https://coolors.co/
+5. Change the colour of the text for the chat messages. They have `class="chat-item"` in the HTML, so will be styled with a rule-set like `.chat-item { color: #000000 }` but instead of black (#000000) pick another colour. Note you have to use `color` not `colour`.
+6. Try replace the robot image with another image you find online.
 
-### Intermediate/Advanced students
+### Intermediate/Advanced students - Must have JavaScript experience
 
-In Part B you'll be writing some logic for a chatbot 🤖 to reply to user input. You may skip or leave the  styling until last and focus on the chatbot reply logic.
+In Part C you'll be writing some logic for a chatbot 🤖 to reply to user input. You may skip or leave the  styling until last and focus on the chatbot reply logic.
 
 Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
 
 
 1. Close the first live server (click  Port: 5501) at bottom-right corner of VSCode.
-2. Open Chatbot HTML file: Right-click on `Chatbot/index.html` and select `Open with Live Server`:
+2. Open Chatbot HTML file: Right-click on `Chatbot/index.html` and select `Open with Live Server`
 3. In `chatbot.js` there are functions already written to handle the form submit and render the chat to the page. You need to write the code to attach the form submit handler to the form element.
     * Add the code for this at the bottom of the page.
     * Check the form `id` in the `index.html` file. There should be only one form in the document.
@@ -171,38 +209,4 @@ Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
 
 You can update the rest of the page and CSS as you see fit
 
-
-## Challenge Part C - Advanced HTML
-
-The assignment is to create two separate HTML files and link them together with HTML link elements.
-
-1. In the `AdvancedHtml` folder create an index HTML file.
-    - `index.html` file.
-    - There should be a empty `author.html` document in the folder too.
-2. In the `index.html` file, add the `<!DOCTYPE>`, `<html>`, `<head>`, `<body>` elements.
-3. In the body element of `index.html` add a `<h1>` element with content of your choice.
-    - See the `author.html` file for a reminder of the basic HTML elements.
-    - The heading should be about a topic you could write about in the web page.
-    - Give the `<h1>` element an `id="topic-heading"` attribute
-4. Under the `<h1>` element, add a unordered list with 3 list items.
-    - The list items contents should be `Home`, `Author`, `Logout`
-    - The list items should each have an anchor element with `href` attributes.
-    - There should be an anchor element within each list item
-        - E.g. `<li><a href="http://foobar.com">A Page Link</a></li>`
-5. Link the `Home` list item to the `<h1>` element using the `id` as the target.
-    - E.g. `href="#topic-heading"`
-    - When clicked this should take the user to the top of the heading.
-6. Link the `Author` list item to `author.html`.
-7. Link the `Logout` list item to `https://www.developers.ac.nz`
-    - Add a `target="_blank"` attribute to the link anchor element.
-    - Also add the `noopener` and `noreferrer` attributes to the link anchor element.
-8. Add a paragraph element under the `<h1>` element and write a short blurb about the topic you put in the `<h1>` heading.
-9. In the `author.html` document add a list with a single list item in the `<header>` element (under the heading element).
-10. Link the single list item back to the `index.html` page.
-    - E.g. `href="index.html"`
-11. Replace `Your Name` in the `author.html` document with your name.
-12. Write a short blurb about yourself in the `<p>` element.
-13. Try out the links on both pages and make sure they work correctly!!
-
 Celebrate again!! 🎉🎉🎉 You've finished your third challenge!!
-

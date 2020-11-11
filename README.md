@@ -1,169 +1,72 @@
-# Client-Side Web Development Course - Day in the life
+# Client-Side Web Development Course - Campus Experience
 
-Beginner and intermediate client-side development exercises.
+Welcome to the Developers Institute Campus Experience. Today we will be going through a typical day in the life of a student. Work through the material below, with guidance from an instructor and your student buddy.
 
-## Morning Meeting
+## Set up your development environment
 
-We'll go through
+If you are joining us from your own home remotely, make sure you have the following things set up on your computer:
 
-- basics of what is involved when you visit a webpage
-- tools we & the whole industry use
-- the basics of HTML and CSS
+- [Google Chrome](https://www.google.com/chrome/) installed. This is a nice modern browser with great developer tools.
+- [VS Code](https://code.visualstudio.com/) downloaded and installed
+- The [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed in VS Code
+  - Watch [Tutorial: Installing Live Server extension in VS Code](https://www.loom.com/share/7349cabe8ec04c56889915f2d5534649)
 
-Recorded meeting: [Introduction to HTML](https://vimeo.com/435601464/d5bc2bac53)
+## HTML, CSS and JavaScript: The Big Picture
 
-### Video - HTML, CSS and JavaScript: The Big Picture
+- Watch [Welcome to the web!](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-html/v/making-webpages-intro) on Khan Academy. Only watch the first video in this series for now.
+- Watch the following video series on YouTube that gives an overview of the web, HTML, CSS, and JavaScript
+  - [What is "The Web" and how does it work? | Web Demystified, Episode 0](https://youtu.be/O_GWbkXIqEY) (3m30s)
+  - [What's HTML and how does it work? | Web Demystified, Episode 1](https://youtu.be/PORRrz3Y8Vc) (7m15s)
+  - [What is CSS and how does it style web pages? | Web Demystified, Episode 2](https://youtu.be/Y02yI1OfZjI) (7min)
+  - [What is JavaScript and how does it work? | Web Demystified, Episode 3](https://youtu.be/09XmbByy6Sk) (6min)
 
-There's a succinct video on `HTML, CSS and JavaScript: The Big Picture` to get an overview understanding of the core parts of the web - from https://app.pluralsight.com/library/courses/html-css-javascript-big-picture/table-of-contents. Even more advanced web developers will likely learn something here as it goes into the history.
+---
 
-- Course Overview
-- Why You Should Care About How the Web Works
-- Displaying the Web with HTML
+## Part A: Introduction to HTML
 
-### Exercise Brief
+HTML elements, tags, and attributes are the fundamental blocks of HTML and the main tools you will use for displaying content on your web pages.
 
-Today we'll be diving into HTML documents and CSS styling basics,
-then create a chatbot.
+Remember, HTML is all about the meaning of the content, whereas Cascading Style Sheets (CSS) is used to style content, and JavaScript for scripting and adding interactivity. If the human body can be seen as a webpage then the bones would be the HTML, the CSS would the skin and JavaScript would be the muscles.
 
-## Resources / Self-directed learning
+### Learning goals
 
-- HTML elements, tags, and attributes are the fundamental blocks for building web pages. This section will cover the basics of HTML so you can write your first webpage.
+- Be able to identify and describe HTML elements, tags, attributes, and content.
+- Write an HTML page that includes headings, paragraphs strong and emphasized text
 
-- W3C HTML elements tutorial: https://www.w3schools.com/html/html_elements.asp
+### Self directed Learning
 
-- Need some colour ideas? Check out https://coolors.co/ or http://colormind.io/
+- Watch [Intro to HTML](https://www.loom.com/share/7676d3dfc4bf4005b82633cf8963b5a9) (28mins)
+- Complete [HTML Basics](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-html/pt/html-basics) on Khan Academy.
+  - Start with _HTML Basics_, and finish on _Challenge: You can learn text tags_
 
-- W3C CSS intro: https://www.w3schools.com/css/css_intro.asp
+### HTML Exercise: My first webpage
 
-- Next, head over to the W3C HTML tutorials site:
+- Visit [My first webpage](https://github.com/Developers-Institute/01-exercise-my-first-html-page) on GitHub, download the code and open it in VS Code.
+  - Watch the [Instructions on downloading code from GitHub](https://www.loom.com/share/92ebfbcca8be4f3ca6c4d89d95443d7e?sharedAppSource=personal_library) tutorial video
+  - If you need help, or have finished, get in touch with your instructor or student buddy to review your code together
 
-  - https://www.w3schools.com/html/html_elements.asp
-  - Browse over the Basic tutorial to at least Paragraphs tutorials, and the formatting tutorial. We'll cover styling in more depth in the CSS classes later in the course.
+---
 
-- Then, test your knowledge you've just learnt:
+## Part B: HTML Lists
 
-  - https://www.w3schools.com/html/exercise.asp
+### Learning goals
 
-- Give these exercises a go (use the menu on the left of the page):
-  - HTML Attributes
-  - HTML Headings
-  - HTML Paragraphs
-  - HTML Formatting
+- Explain the difference between an ordered and unordered list
+- Write a bullet list in HTML
+- Write a numbered list in HTML
+- Explain what the following elements are: `<ul>`, `<ol>` and `<li>`
 
-## Exercise Part A - Basics of HTML & CSS
+### Self-directed learning
 
-For this exercise section, you will need to use the starter website that's been set up in the `Basics` folder.
+- Watch [HTML: Lists](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-html/pt/html-lists) on Khan Academy
+- Complete [Challenge: Wishlist](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-html/pc/challenge-your-learning-list) on Khan Academy
 
-1. Open up vscode and open the `WDD01 Day in the life` workspace from the Recent section.
+### HTML Exercise: 'How to Eat Sushi' HTML page with lists
 
-2. See the files panel on the left - double-click the `Basics/index.html` file - this is where your HTML will go.
+- Visit ['How to Eat Sushi' HTML page with lists](https://github.com/Developers-Institute/01-exercise-html-lists) on GitHub, [download the code](https://www.loom.com/share/92ebfbcca8be4f3ca6c4d89d95443d7e?sharedAppSource=personal_library) and open it in VS Code.
+  - If you need help, or have finished, get in touch with your instructor or student buddy to review your code together
 
-3. Right-click on `Basics/index.html` and select `Open with Live Server`:
-
-   - Now the HTML document can be edited in `Basics/index.html`, saved & the page content will re-load.
-
-   - The CSS styles can be edited in `Basics/static/css/style.css`, saved & the page styles will re-load.
-
-   - Now we're ready to go!
-
-4. Update the `<title>` on line number 7:
-
-   - Select the `Exercise` text in in between the `<title>` tags.
-
-   - Change the text to `My First Website`.
-
-   - Save the changes in the `index.html` document. You should see the webpage update the title text in the web browser tab.
-
-   - <img src="Basics/static/img/title_exercise.png" alt="Exercise Title" width="600">
-
-   - <img src="Basics/static/img/title_MFW.png" alt="My First Website Title" width="600">
-
-5. Update the `<h1>` heading with the text `Hello, World!`:
-
-   - Select the `Basics` text in between the `<h1>` and `</h1>` tags on line 17.
-
-   - Change the text to `Hello, World!`.
-
-   - Remember to save the file after making code updates to see the changes in the web browser.
-
-6. Add some styling to the heading by adding a CSS style class to the heading element:
-
-   - In the `<h1>` `class` attribute, put `main-heading` between the quotes.
-
-   - The heading should now be larger and brighter!
-
-7. Give the website a background image.
-
-   - In the `style.css` stylesheet, find the `.background` style rule.
-
-   - Paste the following between the parenthesis:
-
-     ```
-     background-image: url('/Basics/static/img/background.jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     ```
-
-   - If all goes well, you should have a "dark themed" website now.
-
-8. Back in the website `index.html` file, add a paragraph element under the heading.
-
-   - Below the `main-heading` element, add a paragraph element `<p> </p>`
-
-   - Add some text to between the `<p>` tags. Just make up a story about the background image.
-
-9. Style the paragraph `<p>` element.
-
-   - Add a `class` attribute to the `<p>` element.
-
-   - Give the `class` attribute a value of `main-paragraph`.
-
-   - In the `style.css` file add a new style rule called `.main-paragraph`.
-
-   - In the `.main-paragraph` style rule add a `color:` property. Try using different colours names (or hex values). _Note: the CSS property must be spelt `color`._
-
-10. Be amazed at your glorious website!
-
-## Exercise Part B - Advanced HTML
-
-The assignment is to create two separate HTML files and link them together with HTML link elements.
-
-1. Close the first live server (click Port: 5501) at bottom-right corner of VSCode.
-2. In the `AdvancedHtml` folder create an index HTML file.
-   - `index.html` file.
-   - There should be a empty `author.html` document in the folder too.
-3. Open new HTML file with live server: Right-click on `Chatbot/index.html` and select `Open with Live Server`
-4. In the `index.html` file, add the `<!DOCTYPE>`, `<html>`, `<head>`, `<body>` elements.
-5. In the body element of `index.html` add a `<h1>` element with content of your choice.
-   - See the `author.html` file for a reminder of the basic HTML elements.
-   - The heading should be about a topic you could write about in the web page.
-   - Give the `<h1>` element an `id="topic-heading"` attribute
-6. Under the `<h1>` element, add a unordered list with 3 list items.
-   - The list items contents should be `Home`, `Author`, `Logout`
-   - The list items should each have an anchor element with `href` attributes.
-   - There should be an anchor element within each list item
-     - E.g. `<li><a href="http://foobar.com">A Page Link</a></li>`
-7. Link the `Home` list item to the `<h1>` element using the `id` as the target.
-   - E.g. `href="#topic-heading"`
-   - When clicked this should take the user to the top of the heading.
-8. Link the `Author` list item to `author.html`.
-9. Link the `Logout` list item to `https://www.developers.ac.nz`
-   - Add a `target="_blank"` attribute to the link anchor element.
-   - Also add the `noopener` and `noreferrer` attributes to the link anchor element.
-10. Add a paragraph element under the `<h1>` element and write a short blurb about the topic you put in the `<h1>` heading.
-11. In the `author.html` document add a list with a single list item in the `<header>` element (under the heading element).
-12. Link the single list item back to the `index.html` page.
-    - E.g. `href="index.html"`
-13. Replace `Your Name` in the `author.html` document with your name.
-14. Write a short blurb about yourself in the `<p>` element.
-15. Try out the links on both pages and make sure they work correctly!!
-
-Celebrate again!! 🎉🎉🎉 You've finished your second exercise!!
-
-## Exercise Part C - Chatbot 🤖
-
-For this exercise section, you will need to use the starter website that's been set up in the `/Chatbot` folder.
-
+<!--
 ### Beginner students
 
 Your chatbot has been loaded with some of our logic to handle the reply logic, so you can focus on styling the chatbot 🤖
@@ -205,4 +108,4 @@ Your code will need to go in the `Chatbot/static/js/chatbot.js` file.
 
 You can update the rest of the page and CSS as you see fit
 
-Celebrate again!! 🎉🎉🎉 You've finished your third exercise!!
+Celebrate again!! 🎉🎉🎉 You've finished your third exercise!! -->
